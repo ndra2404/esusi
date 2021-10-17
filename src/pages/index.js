@@ -1,5 +1,7 @@
-import Home from './Home';
-import Profile from './Profile';
-import Splash from './Splash';
+import Home from './Home'
+import Akun from './Akun'
+import Pesanan from './Pesanan'
+import Splash from './Splash'
 
-export {Home,Profile,Splash};
+
+export { Splash, Pesanan, Akun, Home }
