@@ -9,16 +9,17 @@ const Saldo = () => {
     <View style={styles.container}>
       <View style={styles.informasiSaldo}>
         <View style={styles.text}>
-          <Text style={styles.labelSaldo}>Tabungan :</Text>
-          <Text style={styles.valueSaldo}>Rp. 100.000</Text>
+          <Text style={styles.labelSaldo}>06:28</Text>
+          <Text style={styles.valueSaldo}>Tepat Waktu</Text>
+        </View>
+        <View style={styles.text}>
+          <Text style={styles.labelSaldo}>Jadwal</Text>
+          <Text style={styles.valueSaldo}>Bahasa Indonesia</Text>
         </View>
         <View style={styles.text}>
           <Text style={styles.labelPoint}>Tagihan :</Text>
           <Text style={styles.valuePoint}>Rp. 0</Text>
         </View>
-      </View>
-      <View style={styles.buttonAksi}>
-        <ButtonIcon title="Nabung" />
       </View>
     </View>
   );
@@ -43,7 +44,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.29,
     shadowRadius: 4.65,
     elevation: 7,
-    marginTop: -windowHeight * 0.07,
+    marginTop: -windowHeight * 0.1,
     flexDirection: 'row',
   },
   text: {
@@ -51,7 +52,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   informasiSaldo: {
-    width: '60%',
+    width: '100%',
   },
   labelSaldo: {
     fontSize: 20,
@@ -62,11 +63,11 @@ const styles = StyleSheet.create({
     fontFamily: 'TitilliumWeb-Bold',
   },
   labelPoint: {
-    fontSize: 12,
+    fontSize: 13,
     fontFamily: 'TitilliumWeb-Regular',
   },
   valuePoint: {
-    fontSize: 12,
+    fontSize: 13,
     fontFamily: 'TitilliumWeb-Bold',
     color: WARNA_UTAMA,
   },
