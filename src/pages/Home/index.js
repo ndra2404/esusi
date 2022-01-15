@@ -118,13 +118,16 @@ const styles = StyleSheet.create({
   },
   hello: {
     marginTop: windowHeight * 0.02,
+    color:'black'
   },
   selamat: {
     fontSize: 24,
+    color:'black',
     fontFamily: 'TitilliumWeb-Regular',
   },
   username: {
     fontSize: 22,
+    color:'black',
     fontFamily: 'TitilliumWeb-Bold',
   },
   layanan: {

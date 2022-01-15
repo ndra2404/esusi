@@ -1,6 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View, Dimensions} from 'react-native';
-import {WARNA_UTAMA} from '../../utils/constant';
+import { StyleSheet, Text, View, Dimensions } from 'react-native';
+import { WARNA_UTAMA } from '../../utils/constant';
 import ButtonIcon from '../ButtonIcon';
 import Gap from '../Gap';
 
@@ -57,19 +57,22 @@ const styles = StyleSheet.create({
   labelSaldo: {
     fontSize: 20,
     fontFamily: 'TitilliumWeb-Regular',
+    color: 'black',
   },
   valueSaldo: {
     fontSize: 20,
     fontFamily: 'TitilliumWeb-Bold',
+     color:'black',
   },
   labelPoint: {
     fontSize: 13,
     fontFamily: 'TitilliumWeb-Regular',
+    color: 'black',
   },
   valuePoint: {
     fontSize: 13,
     fontFamily: 'TitilliumWeb-Bold',
-    color: WARNA_UTAMA,
+    color: 'black',
   },
   buttonAksi: {
     flex: 1,
