@@ -1,8 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
-import { WARNA_UTAMA } from '../../utils/constant';
-import ButtonIcon from '../ButtonIcon';
-import Gap from '../Gap';
+//import { WARNA_UTAMA } from '../../utils/constant';
+//import Gap from '../Gap';
 
 const Saldo = () => {
   return (
@@ -27,7 +26,7 @@ const Saldo = () => {
 
 export default Saldo;
 
-const windowWidth = Dimensions.get('window').width;
+//const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 const styles = StyleSheet.create({
@@ -62,7 +61,7 @@ const styles = StyleSheet.create({
   valueSaldo: {
     fontSize: 20,
     fontFamily: 'TitilliumWeb-Bold',
-     color:'black',
+    color: 'black',
   },
   labelPoint: {
     fontSize: 13,
